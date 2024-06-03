@@ -1,3 +1,4 @@
+use_tcp_mets: true
 process_queue:
   address: localhost
   port: 5672
