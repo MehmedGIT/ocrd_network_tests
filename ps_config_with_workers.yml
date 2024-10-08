@@ -54,4 +54,6 @@ hosts:
       - name: ocrd-tesserocr-recognize
         number_of_instance: 2
         deploy_type: native
-
+      - name: ocrd-dummy
+        number_of_instance: 2
+        deploy_type: native
