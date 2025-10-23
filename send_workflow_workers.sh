@@ -4,7 +4,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 SERVER_ENDPOINT=localhost:8080/workflow/run
 METS_PATH=$SCRIPT_DIR/ws29/data/mets.xml
-WORKFLOW_PATH=$SCRIPT_DIR/workflow.txt
+WORKFLOW_PATH=$SCRIPT_DIR/dummy-workflow.txt
 PAGE_RANGE=PHYS_0007..PHYS_0012
 AGENT_TYPE=worker
 
