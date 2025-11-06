@@ -7,7 +7,7 @@ process_queue:
     password: mm-test
   ssh:
     username: mm
-    path_to_privkey: /home/mm/.ssh/cloud.key
+    path_to_privkey: /home/mm/.ssh/local_host_key
   skip_deployment: false
 database:
   address: localhost
@@ -17,12 +17,12 @@ database:
     password: admin
   ssh:
     username: mm
-    path_to_privkey: /home/mm/.ssh/cloud.key
+    path_to_privkey: /home/mm/.ssh/local_host_key
   skip_deployment: false
 hosts:
   - address: localhost
     username: mm
-    path_to_privkey: /home/mm/.ssh/cloud.key
+    path_to_privkey: /home/mm/.ssh/local_host_key
     servers:
       - name: ocrd-cis-ocropy-binarize
         deploy_type: native
