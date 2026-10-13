@@ -7,4 +7,4 @@ METS_PATH=$SCRIPT_DIR/ws29/data/mets.xml
 WORKFLOW_PATH=$SCRIPT_DIR/workflow4.txt
 AGENT_TYPE=worker
 
-ocrd network client workflow run --path-to-workflow=$WORKFLOW_PATH --path-to-mets=$METS_PATH --page-wise --print-state --block
+ocrd network client workflow run --path-to-workflow=$WORKFLOW_PATH --path-to-mets=$METS_PATH --page-wise --print-state --block --callback-url=http://localhost:8080/user_workflow_callback_test
