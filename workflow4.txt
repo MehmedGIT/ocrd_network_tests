@@ -1,1 +1,1 @@
-tesserocr-recognize -I DEFAULT -O OCR-D-OCR -P model Fraktur
+tesserocr-recognize -I DEFAULT -O OCR-D-OCR -P model eng
